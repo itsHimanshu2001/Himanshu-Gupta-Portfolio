@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+#mainNavbar {
+    font-size: 1.2em;
+    background-color: black;
+}
+
+#mainNavbar .navbar-brand{
+    color: #f72585;
+    border: solid;
+    margin-top: 0.2em;
+    padding: 0; 
+    font-size: 1.5em;
+    /* font-weight: 100; */
+}
+#mainNavbar .navbar-brand:hover{
+    color: #ffb703;
+    text-shadow: 0 0 7px #ffb703;
+    transition: all 1s;
+}
+#mainNavbar .nav-link:hover{
+    color: #f72585;
+}
+.container{
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 2em;
+    display: flex;
+    /* border: solid; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    /* text-align: center; */
+}
+.typist{
+    color: white;
+    font-size: 68px;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.skillsSec{
+    font-family: "Nunito", sans-seriff;
+    margin-top: 30px;
+    font-size:20px;
+    display: flex;
+    /* width: 1000px; */
+    /* border: solid; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    text-shadow: 0 0 7px #ffb703;
+    transition: all 1s;
+
+    width:35%;
+    margin-bottom: 2em;
+}
+.skills_item{
+    background-color: #212121;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.text_highlight{
+    color: #f72585;
+}
+
+.ed_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.editems{
+    background-color: #212121;
+    border-radius: 6px;
+    margin: 10px;
+    width: 60%;
+    /* vertical and horizontal padding */
+    padding: 23px 20px;      
+}
+.editems:hover{
+    text-shadow: 0 0 7px #ffb703;
+    transition: all 1s;
+}
+.editems1{
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+}
+.course_001{
+    font-family: "Nunito", sans-serif;
+    color: #f72585;
+}

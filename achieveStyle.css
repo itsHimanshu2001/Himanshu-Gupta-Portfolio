@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+#mainNavbar {
+    font-size: 1.2em;
+    background-color: black;
+}
+
+#mainNavbar .navbar-brand{
+    color: #f72585;
+    border: solid;
+    margin-top: 0.2em;
+    padding: 0; 
+    font-size: 1.5em;
+    /* font-weight: 100; */
+}
+#mainNavbar .navbar-brand:hover{
+    color: #ffb703;
+    text-shadow: 0 0 7px #ffb703;
+    transition: all 1s;
+}
+#mainNavbar .nav-link:hover{
+    color: #f72585;
+}
+
+.container{
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 2em;
+    display: flex;
+    /* border: solid; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    /* text-align: center; */
+}
+.typist{
+    color: white;
+    font-size: 68px;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.text_highlight{
+    color: #f72585;
+}
+
+.ed_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.editems{
+    background-color: #212121;
+    border-radius: 6px;
+    margin: 15px;
+    /* vertical and horizontal padding */
+    padding: 23px 20px;      
+}
+
+.ed_sec:hover{
+    text-shadow: 0 0 7px #ffb703;
+    transition: all 1s;
+}
+.editems1{
+    font-family: "Nunito", sans-serif;
+    margin-top: 8px;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+.researchitem{
+    color: #f72585;
+    font-size: 23px;
+}
+
