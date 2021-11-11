@@ -56,6 +56,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    
 }
 .editems{
     background-color: #212121;
@@ -64,35 +65,97 @@ body{
     /* vertical and horizontal padding */
     padding: 23px 20px;      
 }
+
+/*social media icon format*/
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-instagram {
+    background-color: #333;
+    color: white;
+  }
+  .fa-instagram::before{
+    
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    transition: .5s;
+    transform: scale(1.2);
+    z-index: -1;
+  }
+  .fa-instagram:hover::before{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #f72585;
+  }
+
+  .fa-instagram:hover{
+    /* text-shadow: 0 0 7px black; */
+    color: #f72585;
+    box-shadow: 0 0 10px #f72585;
+    text-shadow: 0 0 10px #f72585;
+    transform: scale(1.2);
+    transition: all 0.3s;
+  }
+
+/* social media format end   */
+
 .editemsPic1{
     height: 300px;
     position: relative;  /*solved my image at the front problem*/
     border-radius: 10%;
     box-shadow: 0 0 50px black;
 }
+.editemsPic1:hover{
+    border-radius: 0%;
+    transition: all 0.4s;
+}
 .editemsPic{
     background-color: #212121;
     border-radius: 6px;
     margin: 15px;
     /* vertical and horizontal padding */
-    padding: 23px 20px; 
-
-    
+    padding: 23px 30px 30px 30px; 
 }
 .editemsPic1:nth-of-type(1),.editemsPic1:nth-of-type(4){
     transform: scale(1.05) translateY(-25%);
+    flex: 1 1 auto;
 }
 .editemsPic1:nth-of-type(2){
     transform: scale(1.2) translateY(-21%);
+    flex: 1 1 auto;
 }
 .editemsPic1:nth-of-type(3){
     transform: scale(1.5) translateY(-17%);
     z-index: 100;
+    flex: 1 1 auto;
 }
 .editemsPic h3{
     margin-bottom: 200px;
-    color: red;
+    color: white;
 }
+.itemhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+/* .fa fa-instagram{
+
+} */
 .editems1{
     font-family: "Nunito", sans-serif;
     margin-top: 8px;
@@ -101,3 +164,8 @@ body{
     /* height: 100px; */
    
 }
+.editems1:hover{
+    text-shadow: 0 0 7px #ffb703;
+    transition: all 1s;
+}
+
