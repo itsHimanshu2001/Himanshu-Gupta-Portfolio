@@ -81,3 +81,22 @@ body{
     font-size: 23px;
 }
 
+.ed_sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.ed_sec1 a{
+    text-decoration: none;
+    color: white;
+}
+.ed_sec1 a:hover{
+    text-decoration: underline;
+    color: #bd3239;
+}
+a{
+    text-decoration: none;
+    color: #bd3239;
+}
