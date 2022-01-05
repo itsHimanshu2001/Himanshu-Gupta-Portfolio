@@ -59,7 +59,7 @@ body{
     text-shadow: 0 0 7px #ffb703;
     transition: all 1s;
 
-    width:35%;
+    width: 35%;
     margin-bottom: 2em;
 }
 .skills_item{
@@ -100,4 +100,10 @@ body{
 .course_001{
     font-family: "Nunito", sans-serif;
     color: #f72585;
+}
+
+@media (max-width: 995px){
+    .skillsSec{
+        width:80%;
+    }
 }
