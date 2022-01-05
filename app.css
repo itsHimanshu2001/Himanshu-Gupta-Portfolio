@@ -33,7 +33,7 @@ body{
     font-family: 'Space Grotesk', sans-serif;
     padding: 2em;
     text-align: center;
-    margin-top: 9em;
+    margin-top: 9em;   
     
 }
 .typist{
@@ -57,9 +57,9 @@ p{
     margin-top: 50px;
 }
 
-@media (max-width:750px){
+@media (max-width:750px){   /*from 0px - 750px width, the margin-top: 0*/
 
-    .container{
+    .container{     /*changed the value of margin-top in .container class*/
         margin-top:0;
     }
 
