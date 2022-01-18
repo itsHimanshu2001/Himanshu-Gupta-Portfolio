@@ -100,3 +100,11 @@ a{
     text-decoration: none;
     color: #bd3239;
 }
+
+@media (max-width:485px){   /*from 0px - 750px width, the margin-top: 0*/
+
+    .typist{     /*changed the value of margin-top in .container class*/
+        font-size: 45px;
+    }
+
+}

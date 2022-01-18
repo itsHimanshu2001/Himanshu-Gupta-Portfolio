@@ -1,51 +1,40 @@
+let pics = document.querySelectorAll('.editemsPic1');
 
-// Wait for the page to load first
-window.onload = function() {
 
-  //Get a reference to the link on the page
-  // with an id of "mylink"
-  var a = document.getElementById("mylink");
+pics[1].addEventListener('hover',()=>{
+    pics[1].style.transform.scale = "1.5";
+    pics[1].style.transform.translateY = "-17%";    //values in string format
+    pics[1].style.zIndex = "100";           //camelCase is must
+    pics[2].style.transform.scale = "1.2";
+    pics[2].style.transform.translateY = "-21%";
+    pics[2].style.zIndex = "0";
+})
 
-  //Set code to run when the link is clicked
-  // by assigning a function to "onclick"
-  a.onclick = function() {
-
-    // Your code here...
-    var copyText = document.getElementById("myInput");
-  
-    /* Select the text field */
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); /* For mobile devices */
-  
-     /* Copy the text inside the text field */
-    navigator.clipboard.writeText(copyText.value);
-  
-    /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
-    //If you don't want the link to actually 
-    // redirect the browser to another page,
-    // "google.com" in our example here, then
-    // return false at the end of this block.
-    // Note that this also prevents event bubbling,
-    // which is probably what we want here, but won't 
-    // always be the case.
-    return false;
+function changeSize(n){
+  let p1;
+  let p2;
+  let p3;
+  if(n === '1'){
+    p1 = 0;
+    p2 = 1;
+    p3 = 2;
   }
+  else if(n === '4'){
+    p1 = 3;
+    p2 = 2;
+    p3 = 1;
+  }
+  pics[p1].style.transform.scale = "1.5";
+  pics[p1].style.transform.translateY = "-17%";    //values in string format
+  pics[p1].style.zIndex = "100";           //camelCase is must
+  pics[p2].style.transform.scale = "1.2";
+  pics[p2].style.transform.translateY = "-21%";
+  pics[p2].style.zIndex = "0";
+  pics[p3].style.transform.scale = "1.1";
+  pics[p3].style.transform.translateY = "-23%";
+  pics[p3].style.zIndex = "0";
+
 }
 
-
-
-// function myFunction() {
-//     /* Get the text field */
-//     var copyText = document.getElementById("myInput");
-  
-//     /* Select the text field */
-//     copyText.select();
-//     copyText.setSelectionRange(0, 99999); /* For mobile devices */
-  
-//      /* Copy the text inside the text field */
-//     navigator.clipboard.writeText(copyText.value);
-  
-//     /* Alert the copied text */
-//     alert("Copied the text: " + copyText.value);
-//   }
+pics[0].addEventListener('hover', changeSize(1));
+pics[3].addEventListener('hover', changeSize(4));
