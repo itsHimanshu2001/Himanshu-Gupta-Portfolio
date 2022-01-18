@@ -173,4 +173,31 @@ body{
     text-shadow: 0 0 7px #ffb703;
     transition: all 1s;
 }
+/*for toggle*/
+.top1{
+    transform: scale(1.5) translateY(-17%) !important;
+    z-index: 100;
+    flex: 1 1 auto;
+    /* transition: all 1s; */
+}
 
+.top2{
+    transform: scale(1.2) translateY(-21%) !important;
+    flex: 1 1 auto;
+    z-index: 75 !important;
+    /* transition: all 1s; */
+}
+
+.top3{
+    transform: scale(1.1) translateY(-23%) !important;
+    flex: 1 1 auto;
+    z-index: 50 !important;
+    /* transition: all 1s; */
+}
+
+.top4{
+    transform: scale(1.05) translateY(-25%) !important;
+    flex: 1 1 auto;
+    z-index: 0 !important;
+    /* transition: all 1s; */
+}
