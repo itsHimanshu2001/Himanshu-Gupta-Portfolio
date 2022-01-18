@@ -106,5 +106,7 @@ a{
     .typist{     /*changed the value of margin-top in .container class*/
         font-size: 45px;
     }
-
+    .ed_sec{
+        width: 100%;
+    }
 }
