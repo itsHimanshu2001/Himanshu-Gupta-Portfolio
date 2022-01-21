@@ -18,11 +18,12 @@ body{
     padding: 0; 
     font-size: 1.5em;
     /* font-weight: 100; */
+    transition: all 1s;
 }
 #mainNavbar .navbar-brand:hover{
     color: #ffb703;
     text-shadow: 0 0 7px #ffb703;
-    transition: all 1s;
+    
 }
 #mainNavbar .nav-link:hover{
     color: #f72585;
@@ -167,11 +168,12 @@ body{
     word-spacing: 2px;
     font-size: 20px;
     /* height: 100px; */
+    transition: all 1s;
    
 }
 .editems1:hover{
     text-shadow: 0 0 7px #ffb703;
-    transition: all 1s;
+    
 }
 /*for toggle*/
 .top1{
