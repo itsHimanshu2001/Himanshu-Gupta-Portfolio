@@ -58,7 +58,10 @@ body{
     flex-wrap: wrap;
     width: 80%;
     transition: all 1s;
+    
 }
+
+    
 .editems{
     background-color: #212121;
     border-radius: 6px;
@@ -67,9 +70,13 @@ body{
     padding: 23px 20px;      
 }
 
-.ed_sec:hover{
+.ed_sec h3:hover{
     text-shadow: 0 0 7px #ffb703;
-    
+}
+.ed_sec h3 a:hover{
+    text-shadow: none;
+    text-decoration: underline;
+    color: #bd3239;
 }
 .editems1{
     font-family: "Nunito", sans-serif;
